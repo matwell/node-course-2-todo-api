@@ -16,11 +16,11 @@ const {
 //   console.log(result);
 // });
 
-Todo.findOneAndRemove({
-  _id: '5921377354a3fbbfc62e0853'
-}) then((todo) => {
-  console.log(todo);
-});
+// Todo.findOneAndRemove({
+//   _id: '5921377354a3fbbfc62e0853'
+// }) then((todo) => {
+//   console.log(todo);
+// });
 
 
 Todo.findByIdAndRemove('5921377354a3fbbfc62e0853').then((todo) => {
